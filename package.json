@@ -1,16 +1,16 @@
 {
-  "name": "react-parcel-starter",
-  "productName": "React Parcel Starter",
+  "name": "phyllotaxis-spiral",
+  "productName": "Phyllotaxis Spiral",
   "version": "0.1.0",
-  "description": "Starter kit for React + Parcel projects",
+  "description": "Generator of phyllotaxis/fibonacci spirals",
   "license": "ISC",
   "author": "Scott Thiessen (http://movingobjects.io)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/movingobjects/react-parcel-starter.git"
+    "url": "git+https://github.com/movingobjects/phyllotaxis-spiral.git"
   },
   "bugs": {
-    "url": "https://github.com/movingobjects/react-parcel-starter/issues"
+    "url": "https://github.com/movingobjects/phyllotaxis-spiral/issues"
   },
   "scripts": {
     "dev": "parcel serve './src/index.html' --no-cache --open",
