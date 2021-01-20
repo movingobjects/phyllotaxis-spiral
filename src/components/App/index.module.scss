@@ -1,0 +1,17 @@
+
+@import '~/src/styles/vars';
+
+div.wrap {
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    rgba($colorTint, 0.05)
+    url('~/src/images/bg-pattern.png')
+    center;
+
+}
