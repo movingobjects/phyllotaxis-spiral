@@ -18,8 +18,10 @@
     "empty-cache": "rm -rf './.parcel-cache'"
   },
   "devDependencies": {
+    "konva": "^7.2.2",
     "parcel": "next",
     "postcss-modules": "^3.2.2",
+    "react-konva": "^17.0.1-3",
     "sass": "^1.29.0"
   },
   "dependencies": {

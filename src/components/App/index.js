@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-import WelcomeMessage from '~/src/components/WelcomeMessage';
+import Spiral from '~/src/components/Spiral';
 
 import style from './index.module.scss';
 
@@ -12,8 +12,7 @@ export default class App extends Component {
     return (
       <div className={style.wrap}>
 
-        <WelcomeMessage
-          message={`You did it!`} />
+        <Spiral />
 
       </div>
     )
