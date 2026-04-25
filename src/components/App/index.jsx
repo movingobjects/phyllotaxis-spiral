@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-import Spiral from '~/src/components/Spiral';
+import Spiral from '../Spiral';
 
 import style from './index.module.scss';
 

@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Stage, Layer, Circle } from 'react-konva';
 import { times } from 'lodash';
-import { maths } from 'varyd-utils';
+import { maths } from '@movingobjects/utils';
 
 import style from './index.module.scss';
 
@@ -11,12 +11,12 @@ export default class Spiral extends Component {
   getVerts() {
 
     const INDEX_START  = 1,
-          INDEX_END    = 79,
-          DIST_SCALE   = 9,
-          DIST_POWER   = 0.75,
-          RADIUS_MIN   = 5,
-          RADIUS_MAX   = 25,
-          RADIUS_POWER = 1.25,
+          INDEX_END    = 400,
+          DIST_SCALE   = 10,
+          DIST_POWER   = 0.65,
+          RADIUS_MIN   = 10,
+          RADIUS_MAX   = 10,
+          RADIUS_POWER = 1,
           COUNT        = INDEX_END - INDEX_START;
 
     const getColor = (index) => {

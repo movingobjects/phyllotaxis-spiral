@@ -1,5 +1,5 @@
 
-@import '~/src/styles/vars';
+@use '../../styles/vars';
 
 div.wrap {
 
@@ -9,6 +9,6 @@ div.wrap {
   justify-content: center;
   align-items: center;
 
-  background: #eee;
+  background: white;
 
 }

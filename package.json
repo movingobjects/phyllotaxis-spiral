@@ -13,21 +13,21 @@
     "url": "https://github.com/movingobjects/phyllotaxis-spiral/issues"
   },
   "scripts": {
-    "dev": "parcel serve './src/index.html' --no-cache --open",
-    "build": "rm -rf './dist'; parcel build './src/index.html' --dist-dir './dist' --no-source-maps",
-    "empty-cache": "rm -rf './.parcel-cache'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "konva": "^7.2.2",
-    "parcel": "next",
-    "postcss-modules": "^3.2.2",
-    "react-konva": "^17.0.1-3",
-    "sass": "^1.29.0"
+    "@vitejs/plugin-react": "^4.0.0",
+    "sass": "^1.29.0",
+    "vite": "^6.0.0"
   },
   "dependencies": {
+    "@movingobjects/utils": "^0.1.0",
+    "konva": "^7.2.2",
     "lodash": "^4.17.20",
-    "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "varyd-utils": "^1.6.2"
+    "react-konva": "^17.0.1-3",
+    "react": "^17.0.1"
   }
 }
